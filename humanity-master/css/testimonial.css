@@ -16,13 +16,12 @@
 }
 
 .bx-wrapper .testimonials-carousel-thumbnail img {
-    display: block;
-    margin-right: 20px;
-    width: 100px;
+    display: none;
 }
 
 .bx-wrapper .testimonials-carousel-context {
     overflow: hidden;
+    text-align: center;
 }
 
 .bx-wrapper .testimonials-name {
@@ -139,7 +138,7 @@
 
 .bx-wrapper .bx-controls-direction a {
     position: absolute;
-    top: 0;
+    top: auto;
     margin-top: 0;
     margin-right: 0px;
     outline: 0;
@@ -147,4 +146,8 @@
     height: 30px;
     text-indent: -9999px;
     z-index: 9999;
+}
+
+.bx-controls-direction{
+    padding: 15px 0px;
 }
